@@ -1,4 +1,5 @@
 # Python CircleCI 2.0 configuration file
+# Another (perhaps more common) usage is to do git commit -a, which adds only the files that changed since the last commit before committing, and doesn't include any new files.
 version: 2
 jobs:
   build:
