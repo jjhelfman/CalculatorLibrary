@@ -1,0 +1,16 @@
+"""
+Calculator library containing basic math operations.
+"""
+# The test_ at the start of this file name lets pytest know this is a test
+# Run the following --> The . is to test only the test_ file (not the venv folder!):  pytest -v --cov .
+
+import calculator
+
+
+class TestCalculator:
+    
+        def test_addition(self):
+            assert 4 == calculator.add(2, 2)
+            
+        def test_subtract(self):
+            assert 2 == calculator.subtract(4, 2)
